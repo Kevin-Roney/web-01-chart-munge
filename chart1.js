@@ -14,7 +14,7 @@ const data = {
     labels: labels,
     datasets: [{
         label: 'Customers By Purchase Frequency',
-        backgroundColor: 'rgb(255, 99, 132)',
+        backgroundColor: ['pink', 'black'],
         borderColor: 'rgb(255, 99, 132)',
         data: Object.values(countMap),
     }]

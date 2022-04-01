@@ -25,14 +25,14 @@ export function makeCoolFactorCountMap(customers) {
 }
 
 export function makeGenderCountMap(customers) {
-    const countMap2 = {};
+    const countMap3 = {};
     for (let customer of customers) {
         const frequency = customer.gender;
-        if (countMap2[frequency]) {
-            countMap2[frequency]++;
+        if (countMap3[frequency]) {
+            countMap3[frequency]++;
         } else {
-            countMap2[frequency] = 1;
+            countMap3[frequency] = 1;
         }
     }
-    return countMap2;
+    return countMap3;
 }
