@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 // import functions and grab DOM elements
 import { customers } from './data.js';
 import { makePurchaseFrequencyCountMap } from './data-utils.js';
@@ -25,10 +27,9 @@ const config = {
     data: data,
     options: {}
 };
-
+// eslint-disable-next-line
 const myChart1 = new Chart(
     document.getElementById('myChart1'),
     config
 );
-
 
