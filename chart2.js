@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { makeCoolFactorCountMap } from './data-utils.js';
 import { customers } from './data.js';
 

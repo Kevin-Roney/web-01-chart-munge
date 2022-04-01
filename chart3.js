@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars */
 import { makeGenderCountMap } from './data-utils.js';
 import { customers } from './data.js';
 
